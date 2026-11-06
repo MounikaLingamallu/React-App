@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
 export default function Navbar() {
   return (
     <div>
-        <button>Home</button>
-        <button>Doctors</button>
+       <Link to="/">Home</Link>
+       
+       <Link to="/add-doctor">AddDoctors</Link>
       
     </div>
   )
